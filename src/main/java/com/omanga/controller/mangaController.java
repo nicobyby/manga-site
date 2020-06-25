@@ -63,7 +63,6 @@ public class mangaController {
         QueryWrapper<MangaChapter> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("comicName", mangaName).and(true,i -> i.eq("chaptername",chapter));
         MangaChapter one = mangaChapterService.getOne(queryWrapper);
-
         return one;
     }
 
