@@ -1,0 +1,11 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driver-class-name:
+    url:
+    username:
+    password:
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
